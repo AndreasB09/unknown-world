@@ -3,3 +3,10 @@
     height: 100px;
     background-color: crimson;
 }
+
+.container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

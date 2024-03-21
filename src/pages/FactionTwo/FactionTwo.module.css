@@ -5,3 +5,10 @@
     border-right: 50px solid transparent;
     border-bottom: 100px solid black;
 }
+
+.container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

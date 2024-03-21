@@ -1,10 +1,13 @@
-import styles from "/FactionTwo.module.css";
+import Layout from "../../components/Layout/Layout";
+import styles from "./FactionTwo.module.css";
 
 function FactionTwo() {
   return (
-    <div className={styles.container}>
-      <div className={styles.triangle}></div>
-    </div>
+    <Layout>
+      <div className={styles.container}>
+        <div className={styles.triangle}></div>
+      </div>
+    </Layout>
   );
 }
 
