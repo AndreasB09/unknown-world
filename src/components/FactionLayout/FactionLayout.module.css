@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.card {
+    height: 200px;
+    width: 80px;
+    background-color: blueviolet;
+    border: solid  black 2px;
+    border-radius: 10px;
+}

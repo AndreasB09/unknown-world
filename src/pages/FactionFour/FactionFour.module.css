@@ -1,0 +1,19 @@
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+.innerCircle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

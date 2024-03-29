@@ -16,6 +16,18 @@
     width: 80%;
 }
 
-/* .button {
+.button {
+    height: 50px;
+    width: 100px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
 
-} */
+.button:hover {
+    background-color: black;
+}
