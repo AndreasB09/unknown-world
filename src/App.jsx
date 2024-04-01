@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import FactionOne from './pages/FactionOne/FactionOne.jsx';
 import FactionTwo from './pages/FactionTwo/FactionTwo.jsx';
 import FactionThree from './pages/FactionThree/FactionThree.jsx';
+import FactionFour from './pages/FactionFour/FactionFour.jsx';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/faction-one" element={<FactionOne />} />
         <Route path="/faction-two" element={<FactionTwo />} />
         <Route path="/faction-three" element={<FactionThree />} />
+        <Route path="/faction-four" element={<FactionFour />} />
       </Routes>
     </Router>
   );
