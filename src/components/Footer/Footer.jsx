@@ -5,7 +5,7 @@ import styles from './Footer.module.css';
 function Footer() {
     return (
         <footer className={styles.container}>
-            {/* <img src={decidiousTree} alt="githublogo" /> */}
+            {/* <img src={githubLogo} alt="githublogo" /> */}
         </footer>
     )
 }
